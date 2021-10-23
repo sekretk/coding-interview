@@ -1,0 +1,25 @@
+Tasks:
+
+1. Go through code and web interface, tell about noticed bugs,
+    problems and imperfections
+
+2. Fix a bug: when user enters next symbol in the input,
+    checkbox states are being reset
+
+3. Implement an improvement: add "Loading..." text
+    to popover content while data is loading
+
+4. Add IOC
+    - unify suggestion provider interface
+    - create 3 implemtnations of suggestion provider (naive \ rxjs \ mock)
+    - hide communication service by abstraction in DI 
+    - create two implementations of communication: mock\fetch
+
+5. RxJS
+    - finish and integrate RXJS suggestion provider
+    - override potential problemns in current implementation
+
+6. Tests
+    - add test framwork
+    - create test suites for data services
+    - create test suite for selector component
